@@ -1,3 +1,5 @@
+github.com/dgrijalva/jwt-go v3.2.0+incompatible h1:7qlOGliEKZXTDg6OTjfoBKDXWrumCAMpl/TFQ4/5kLM=
+github.com/dgrijalva/jwt-go v3.2.0+incompatible/go.mod h1:E3ru+11k8xSBh+hMPgOLZmtrrCbhqsmaPHjLKYnJCaQ=
 github.com/h-hiroki/surveillance_gogo/server v0.0.0-20190421123547-7cc032cb0019 h1:uAODRulcC4pZY/nOnyBs+bvvYMFdU1AO62K6JsYW3Jo=
 github.com/h-hiroki/surveillance_gogo/server v0.0.0-20190421123547-7cc032cb0019/go.mod h1:9N/PNjnTZR+NEA5xXacMKpIzs+WzjwAtIHHcJmb50GA=
 github.com/labstack/echo v3.3.10+incompatible h1:pGRcYk231ExFAyoAjAfD85kQzRJCRI8bbnE7CX5OEgg=
