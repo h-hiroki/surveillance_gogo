@@ -1,15 +1,16 @@
 package main
 
 import (
-	"net/http"
-
+	"github.com/h-hiroki/surveillance_gogo/server/app/handlers"
 	"github.com/labstack/echo"
 )
 
 func main() {
 	e := echo.New()
-	e.GET("/", func(c echo.Context) error {
-		return c.String(http.StatusOK, "Hello, World!")
-	})
+
+	// テスト用にJSONを返却する　削除予定
+	e.GET("/test", handlers.GetTest)
+	e.File("/", "public/")
+
 	e.Logger.Fatal(e.Start(":1323"))
 }
