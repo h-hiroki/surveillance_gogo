@@ -10,8 +10,8 @@ func main() {
 
 	// テスト用にJSONを返却する　削除予定
 	e.File("/", "../../front/index.html")
+	e.GET("/health_check", handlers.HealthCheck)
 	e.GET("/test", handlers.GetTest)
-
 
 	e.Logger.Fatal(e.Start(":1323"))
 }
