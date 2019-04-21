@@ -9,7 +9,7 @@ func main() {
 	e := echo.New()
 
 	// テスト用にJSONを返却する　削除予定
-	e.File("/", "../../front/index.html")
+	//e.File("/", "../../front/build/index.html")
 	e.GET("/health_check", handlers.HealthCheck)
 	e.GET("/test", handlers.GetTest)
 
