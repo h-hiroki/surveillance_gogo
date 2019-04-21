@@ -9,8 +9,9 @@ func main() {
 	e := echo.New()
 
 	// テスト用にJSONを返却する　削除予定
+	e.File("/", "../../front/index.html")
 	e.GET("/test", handlers.GetTest)
-	e.File("/", "public/")
+
 
 	e.Logger.Fatal(e.Start(":1323"))
 }
