@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e8e1d7a-5d65-48b5-a016-897c4d1e9f90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/app/crawler/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/app/handlers/onepan.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app/crawler/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/crawler/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/app/crawler/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="277">
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
               <folding>
                 <element signature="e#17#50#0" expanded="true" />
               </folding>
@@ -316,8 +313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/app/crawler/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="277">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
           <folding>
             <element signature="e#17#50#0" expanded="true" />
           </folding>
