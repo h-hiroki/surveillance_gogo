@@ -15,6 +15,7 @@ func main() {
 	// テスト用にJSONを返却する　削除予定
 	e.GET("/health_check", handlers.HealthCheck)
 	e.GET("/test", handlers.GetTest)
+	e.POST("/onepan", handlers.OnePan)
 
 	e.Logger.Fatal(e.Start(":1323"))
 }
